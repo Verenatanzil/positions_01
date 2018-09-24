@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+
+#fixed{
+    padding: 40px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.wrapper{
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header{
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 54px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+#relative{
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+#absolute{
+    position: absolute;
+    bottom: 0%;
+    right: -5%;
+    background-color: #999999;
+    padding: 20px;
+}
